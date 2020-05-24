@@ -1,6 +1,6 @@
 <p align="center">
 Get identifiers, names, paths, URLs and words from the command output.<br> 
-The <a href="https://github.com/anki-code/xontrib-output-search">xontrib-output-search</a> for <a href="https://xon.sh/">xonsh shell</a> is using this library.
+The <a href="https://github.com/tokenize/xontrib-output-search">xontrib-output-search</a> for <a href="https://xon.sh/">xonsh shell</a> is using this library.
 </p>
 
 <p align="center">  
@@ -74,5 +74,5 @@ echo "Hello world" | ./tokenize_outupt -p
 ## Related projects
 * [xontrib-output-search][XONTRIB_OUTPUT_SEARCH] for [xonsh shell][XONSH]
 
-[XONTRIB_OUTPUT_SEARCH]: https://github.com/anki-code/xontrib-output-search
+[XONTRIB_OUTPUT_SEARCH]: https://github.com/tokenize/xontrib-output-search
 [XONSH]: https://xon.sh/
