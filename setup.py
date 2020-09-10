@@ -25,11 +25,11 @@ setuptools.setup(
     package_data={'tokenize_output': ['*.py']},
     scripts=['tokenize-output'],
     platforms='any',
-    url='https://github.com/tokenizer/tkoenize-output',
+    url='https://github.com/tokenizer/tokenize-output',
     project_urls={
-        "Documentation": "https://github.com/tokenizer/tkoenize-output/blob/master/README.md",
-        "Code": "https://github.com/tokenizer/tkoenize-output",
-        "Issue tracker": "https://github.com/tokenizer/tkoenize-output/issues",
+        "Documentation": "https://github.com/tokenizer/tokenize-output/blob/master/README.md",
+        "Code": "https://github.com/tokenizer/tokenize-output",
+        "Issue tracker": "https://github.com/tokenizer/tokenize-output/issues",
     },
     classifiers=[
         'Programming Language :: Python'
