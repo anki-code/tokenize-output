@@ -4,7 +4,7 @@ The <a href="https://github.com/tokenize/xontrib-output-search">xontrib-output-s
 </p>
 
 <p align="center">  
-If you like the idea of tokenize-output click ⭐ on the repo and stay tuned by watching releases.
+If you like the idea click ⭐ on the repo and stay tuned by watching releases.
 </p>
 
 ## Install
