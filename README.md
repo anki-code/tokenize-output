@@ -1,6 +1,6 @@
 <p align="center">
 Get identifiers, names, paths, URLs and words from the command output.<br> 
-The <a href="https://github.com/tokenize/xontrib-output-search">xontrib-output-search</a> for <a href="https://xon.sh/">xonsh shell</a> is using this library.
+The <a href="https://github.com/tokenizer/xontrib-output-search">xontrib-output-search</a> for <a href="https://xon.sh/">xonsh shell</a> is using this library.
 </p>
 
 <p align="center">  
