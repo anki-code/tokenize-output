@@ -17,7 +17,7 @@ pip install -U tokenize-output
 #### Words tokenizing
 ```shell script
 $ echo "Try https://github.com/xxh/xxh" | tokenize-output -p
-Hello
+Try
 https://github.com/xxh/xxh
 ```
 
