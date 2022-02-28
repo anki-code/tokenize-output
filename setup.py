@@ -19,7 +19,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     python_requires='>=3.6',
     install_requires=[
-        'demjson'
+        'demjson3'
     ],
     packages=setuptools.find_packages(),
     package_data={'tokenize_output': ['*.py']},
