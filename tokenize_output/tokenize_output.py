@@ -1,6 +1,6 @@
 import re
 import json
-import demjson
+import demjson3
 import ast
 import logging
 from collections.abc import Iterable
@@ -120,7 +120,7 @@ def tokenizer_dict(text, text_cmd='', substring='', current_cmd={}):
 
     if dct is None:
         try:  # JavaScript Object
-            dct = demjson.decode(text)
+            dct = demjson3.decode(text)
         except:
             pass
 
