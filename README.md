@@ -68,7 +68,7 @@ python -m pytest tests/
 ```
 To debug the tokenizer:
 ```shell script
-echo "Hello world" | ./tokenize_outupt -p
+echo "Hello world" | ./tokenize-output -p
 ```
 
 ## Related projects
