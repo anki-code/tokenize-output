@@ -46,10 +46,10 @@ Tokenizer is a functions which extract tokens from the text.
 
 | Priority | Tokenizer  | Text  | Tokens |
 | ---------| ---------- | ----- | ------ |
-| 1        | **dict**   | `{"key": "val as str"}` | `['key', 'val as str']` |
-| 2        | **env**    | `PATH=/bin:/etc` | `['PATH', '/bin:/etc', '/bin', '/etc']` |   
-| 3        | **split**  | `Split  me \n now!` | `['Split', 'me', 'now!']` |   
-| 4        | **strip**  | `{Hello}` | `['Hello']` |   
+| 1        | **dict**   | `{"key": "val as str"}` | `key`, `val as str` |
+| 2        | **env**    | `PATH=/bin:/etc` | `PATH`, `/bin:/etc`, `/bin`, `/etc` |   
+| 3        | **split**  | `Split  me \n now!` | `Split`, `me`, `now!` |   
+| 4        | **strip**  | `{Hello}` | `Hello` |   
 
 You can create your tokenizer and add it to `tokenizers_all` in `tokenize_output.py`.
 
