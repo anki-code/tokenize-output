@@ -12,7 +12,7 @@ setuptools.setup(
     name='tokenize-output',
     version=__version__,
     license='BSD',
-    author='anki',
+    author='anki-code',
     author_email='author@example.com',
     description="Get identifiers, names, paths, URLs and words from the command output.",
     long_description=long_description,
@@ -25,11 +25,11 @@ setuptools.setup(
     package_data={'tokenize_output': ['*.py']},
     scripts=['tokenize-output'],
     platforms='any',
-    url='https://github.com/tokenizer/tokenize-output',
+    url='https://github.com/anki-code/tokenize-output',
     project_urls={
-        "Documentation": "https://github.com/tokenizer/tokenize-output/blob/master/README.md",
-        "Code": "https://github.com/tokenizer/tokenize-output",
-        "Issue tracker": "https://github.com/tokenizer/tokenize-output/issues",
+        "Documentation": "https://github.com/anki-code/tokenize-output/blob/master/README.md",
+        "Code": "https://github.com/anki-code/tokenize-output",
+        "Issue tracker": "https://github.com/anki-code/tokenize-output/issues",
     },
     classifiers=[
         'Programming Language :: Python'
