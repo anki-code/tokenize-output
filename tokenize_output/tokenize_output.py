@@ -5,6 +5,8 @@ import ast
 import logging
 from collections.abc import Iterable
 
+
+_specials = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 _framed_regexp = re.compile(r'^["\'({\[,:;]*(.+?)[,})\]"\':;]*$')
 _clean_regexp = re.compile(r'[\n\r\t]')
 _env_regexp = re.compile(r'^([a-zA-Z0-9_]+?)=(.*)$')
@@ -17,7 +19,7 @@ def filter_tokens(tokens, substring='', len_min=2):
         len_t = len(t)
         if len_t <= len_min:  # Skip short tokens
             continue
-        if len(set(t)) <= 2:  # Skip tokens with repeated characters ('+-+-+')
+        if len(set(t)) <= 2 and t[0] in _specials:  # Skip tokens with repeated special characters i.e. '+-+-+'.
             continue
         if substring_lower not in t.lower():  # Skip by substring
             continue
