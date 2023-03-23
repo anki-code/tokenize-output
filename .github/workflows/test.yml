@@ -1,12 +1,7 @@
 name: Testing
 
-on:
-  workflow_call:
-    inputs:
-      cache-dependency-path:
-        required: false
-        type: string
-        default: '**/requirements.txt'
+on: push
+
 jobs:
   testing:
     strategy:
