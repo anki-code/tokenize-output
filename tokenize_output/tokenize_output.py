@@ -148,7 +148,7 @@ def tokenize_output(text, text_cmd='', substring='', current_cmd={}, tokenizers=
                     recursion_level=1):
     spacing = ' ' * recursion_level * 2
     recursion_level_num = f" {recursion_level:02d}"
-    logging.debug(f"{recursion_level_num}{spacing}TEXT: {text}")
+    logging.debug(f"{recursion_level_num}{spacing}TEXT: {reor(text)}")
     result_tokens = []
     found_tokens = False
     for tokenizer_name in tokenizers:
