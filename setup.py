@@ -21,6 +21,9 @@ setuptools.setup(
     install_requires=[
         'demjson3'
     ],
+    extras_require={
+        "dev": ["pytest"],
+    },
     packages=setuptools.find_packages(),
     package_data={'tokenize_output': ['*.py']},
     scripts=['tokenize-output'],
