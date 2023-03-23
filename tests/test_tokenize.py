@@ -14,12 +14,12 @@ def test_tokenize_one_2_three_4():
 
 def test_tokenize_repeated():
     assert tokenize_output_sorted("""
-        +-------+-------+
-        | one   | two   |
-        | ----- | ----- |
-        | three | 12345 |
-        +-------+-------+
-    """) == ['12345', 'one', 'three', 'two']
+        +-------+-------+-------+
+        | one   | two   | three |
+        | ----- | ----- | ----- |
+        | three | 12345 | 33333 |
+        +-------+-------+-------+
+    """) == ['12345', '33333', 'one', 'three', 'two']
 
 def test_tokenize_specials():
     assert tokenize_output_sorted('\n\t\r one \n\t\r "two" \n\t\r three \n\t\r') == ['one', 'three', 'two']
