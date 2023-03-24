@@ -14,6 +14,13 @@ pip install -U tokenize-output
 
 ## Usage
 
+You can use `tokenize-output` command as well as export the tokenizers in Python:
+```python
+from tokenize_output.tokenize_output import *
+tokenizer_split("Hello world!")
+# {'final': set(), 'new': {'Hello', 'world!'}}
+```
+
 #### Words tokenizing
 ```shell script
 $ echo "Try https://github.com/xxh/xxh" | tokenize-output -p
