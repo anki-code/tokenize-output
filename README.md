@@ -23,27 +23,27 @@ tokenizer_split("Hello world!")
 
 #### Words tokenizing
 ```shell script
-$ echo "Try https://github.com/xxh/xxh" | tokenize-output -p
-Try
-https://github.com/xxh/xxh
+echo "Try https://github.com/xxh/xxh" | tokenize-output -p
+# Try
+# https://github.com/xxh/xxh
 ```
 
 #### JSON, Python dict and JavaScript object tokenizing
 ```shell script
-$ echo '{"Try": "xonsh shell"}' | tokenize-output -p
-Try
-shell
-xonsh
-xonsh shell
+echo '{"Try": "xonsh shell"}' | tokenize-output -p
+# Try
+# shell
+# xonsh
+# xonsh shell
 ```    
 
 #### env tokenizing
 ```shell script
-$  echo 'PATH=/one/two:/three/four' | tokenize-output -p
-/one/two
-/one/two:/three/four
-/three/four
-PATH
+echo 'PATH=/one/two:/three/four' | tokenize-output -p
+# /one/two
+# /one/two:/three/four
+# /three/four
+# PATH
 ```    
 
 ## Development
