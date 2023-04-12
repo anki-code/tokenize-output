@@ -51,7 +51,7 @@ echo 'PATH=/one/two:/three/four' | tokenize-output -p
 ### Tokenizers
 Tokenizer is a functions which extract tokens from the text.
 
-| Priority | Tokenizer  | Text  | Tokens |
+| Priority | Tokenizer  | Text example  | Tokens |
 | ---------| ---------- | ----- | ------ |
 | 1        | **dict**   | `{"key": "val as str"}` | `key`, `val as str` |
 | 2        | **env**    | `PATH=/bin:/etc` | `PATH`, `/bin:/etc`, `/bin`, `/etc` |   
