@@ -7,7 +7,7 @@ from collections.abc import Iterable
 
 
 _specials = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-_framed_regexp = re.compile(r'^["\'({\[,:;]*(.+?)[,})\]"\':;]*$')
+_framed_regexp = re.compile(rf'^[{_specials}]*(.+?)[{_specials}]*$')
 _clean_regexp = re.compile(r'[\n\r\t]')
 _env_regexp = re.compile(r'^([a-zA-Z0-9_]+?)=(.*)$')
 
